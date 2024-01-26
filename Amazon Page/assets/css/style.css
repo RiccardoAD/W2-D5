@@ -7,8 +7,10 @@ box-sizing: border-box;
 font-family: Arial, Helvetica, sans-serif;
 }
 main {
+
     background-color:#e9edee ;
 }
+
 
 .logocontainer {
  background-color: #222f3f;
@@ -49,6 +51,7 @@ main {
     font-size: 15px;
     padding-block: 7px;
     color: white;
+    margin-top: 25px;
     
 }
  h1{
@@ -59,14 +62,22 @@ main {
     color: white;
     text-align: center;
     padding-bottom: 40px;
+    
     margin: 25px;
     background-size: contain;
     padding-top: 25px;
 
  }
+ .span{
+    font-size: 15px;
+    text-align: start;
+    padding-left: 20px;
+    font-weight: 600;
+ }
  p {
     padding-top: 25px;
  }
+ 
  .conteiner-card{
     margin: 25px;
     text-align: center;
@@ -103,17 +114,20 @@ main {
     text-align: center;
 }
 
-
-.cont-img2{
+.cont-img2 {
     margin: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  
 }
+
 
 .linkshop{
     font-size: 15px;
     color: #026578;
     text-decoration: none;
     font-weight: 800px;
-    font-style: bold;
+    font-weight: bold;
 }
  .banner-bottom{
      height: 500px;
