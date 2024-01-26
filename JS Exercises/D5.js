@@ -23,6 +23,19 @@ console.log("esercizio 1 ",pets);
 pets.reverse();
 console.log("esercizio 3 ", pets);
 
+
+
+//o
+
+// // attraversa un array da sinistra a destra
+// for (let i = 0; i < petCloned.length; i++) {
+//  // attravetrsa un array da destra a sinistra 
+//   for (let i = 0; i <pets.Cloned.length -1; i>= 0; i--) {
+//     console.log(petCloned[i]);
+    
+//   }
+//}
+
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
@@ -73,6 +86,7 @@ const newObj={
   model: 'punto',
   color: 'white',
   trims: ['moedor', 'frestyle', 'r-loutput'],
+  licensePlate: "ER46O"
 }
 cars.push(newObj);
 
