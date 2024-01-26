@@ -1,0 +1,143 @@
+/* Your s!tyles here */
+/* RULES */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color:#e9edee ;
+}
+
+.logocontainer {
+ background-color: #222f3f;
+ padding: 10px;
+ padding-left: 25px;
+ padding-bottom: 6px;
+}
+.logo {
+    max-width: 100%;  /*  imposto la larghezza e altezza massima e  */
+    max-height: 80px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+ /* menu */
+.nav{
+    height: 40px;
+    background-color: #364759;
+    width: 100%;
+}
+.nav li {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+ /* menu end */
+
+/* MAIN */
+
+.holiday{
+    padding-inline: 25px ;
+    padding-block: 5px;
+    position: center;
+
+}
+.banner{
+    text-align: center;
+    background-color: #f56600;
+    font-size: 15px;
+    padding-block: 7px;
+    color: white;
+    
+}
+ h1{
+    font-size: 20px;
+ }
+ .gift-conteiner {
+    background-image: url(/assets/images/bg-image.png);
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 25px;
+    background-size: contain;
+    padding-top: 25px;
+
+ }
+ p {
+    padding-top: 25px;
+ }
+ .conteiner-card{
+    margin: 25px;
+    text-align: center;
+    background-color: white;
+    padding-block: 80px;
+    font-size: 0;
+    white-space: nowrap;
+    padding-top: 30px;
+ }
+ section .photo {
+    display: inline-block;
+    width: 20%;
+    height: 460px;
+    box-sizing: border-box;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #80808082;
+ }
+.cont-img1 {
+    margin: 25px;
+
+}
+.img1  {
+    width: 100%;
+  
+
+}
+.img2{
+    width: 100%;
+}
+.sottotitolo{
+    text-align: center;
+}
+
+
+.cont-img2{
+    margin: 25px;
+}
+
+.linkshop{
+    font-size: 15px;
+    color: #026578;
+    text-decoration: none;
+    font-weight: 800px;
+    font-style: bold;
+}
+ .banner-bottom{
+     height: 500px;
+ }
+ 
+ .banner-bottom img{
+     width: 100%;
+     object-fit: cover;
+     height: inherit;
+ }
+/* FOOTER */
+
+.gotop {
+    background-color: #364759;
+    text-align: center;
+    padding: 15px;
+}
+    
+.footerlogo {
+    text-align: center;
+    background-color: #222f3f;
+}
+
+.logofooter {
+    padding-block: 25px;
+    width: 7rem;
+}

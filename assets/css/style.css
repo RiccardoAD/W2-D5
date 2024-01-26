@@ -1,0 +1,76 @@
+/* Your s!tyles here */
+/* RULES */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+main {
+    background-color:#e9edee ;
+}
+
+.logocontainer {
+ background-color: #222f3f;
+ padding: 10px;
+ padding-left: 25px;
+ padding-bottom: 6px;
+}
+.logo {
+    max-width: 100%;  /*  imposto la larghezza e altezza massima e  */
+    max-height: 80px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+ /* menu */
+.nav{
+    height: 40px;
+    background-color: #364759;
+    width: 100%;
+}
+.nav li {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+ /* menu end */
+
+/* MAIN */
+
+.holiday{
+    padding-inline: 25px ;
+    padding-block: 5px;
+
+}
+.banner{
+    text-align: center;
+    background-color: #f56600;
+    font-size: 15px;
+    padding-block: 7px;
+    color: white;
+}
+ h1{
+    font-size: 20px;
+ }
+ .gift-conteiner {
+    background-image: url(/ );
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 25px;
+
+ }
+ p {
+    padding-top: 25px;
+ }
+ .conteiner-card{
+    margin: 25px;
+    text-align: center;
+    background-color: white;
+    padding-block: 80px;
+    font-size: 0;
+    white-space: nowrap;
+ }
+
+/* FOOTER */
+
+
