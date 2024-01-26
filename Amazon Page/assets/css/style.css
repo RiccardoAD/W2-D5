@@ -82,15 +82,16 @@ main {
     margin: 25px;
     text-align: center;
     background-color: white;
-    padding-block: 80px;
-    font-size: 0;
+    padding-block: 50px;
+    padding-bottom:20px;
     white-space: nowrap;
     padding-top: 30px;
+    
  }
  section .photo {
     display: inline-block;
     width: 20%;
-    height: 460px;
+    height: 400px;
     box-sizing: border-box;
     max-width: 100%;
     object-fit: cover;

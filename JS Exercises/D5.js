@@ -130,4 +130,28 @@ while (numericArray[i] !== 32 && i < numericArray.length) {
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
+
+// charCodeAt (0) serve a pendere il primo carattere della stinga  suppononemdo
+// una condizione in cui la if imdichi il parametro di una stringa
+// deve tornare una fumzione  in cui charcode spende il primo carattere
+// e ne sottrae il 96 alterando il numero corrispondede
+
+
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
+const myArray=[]
+
+function NumeroAlfabeto(a) {
+  if(typeof a === "string"){                                             //testo se il valore messo è una stringa e lo metto tutto minuscolo
+    return a.toLocaleLowerCase().charCodeAt(0)-96;
+
+  }
+}
+  for (let i = 0; i < charactersArray.length; i++) {
+    switch (charactersArray[i]) {
+      case charactersArray[i]:
+        myArray.push(NumeroAlfabeto(charactersArray[i]));
+        break;
+    
+    }
+  }
+  console.log("Esercizo 10",myArray);
