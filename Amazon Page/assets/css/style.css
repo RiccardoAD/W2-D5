@@ -58,16 +58,22 @@ main {
     font-size: 20px;
  }
  .gift-conteiner {
-    background-image: url(/assets/images/bg-image.png);
-    color: white;
-    text-align: center;
-    padding-bottom: 40px;
-    
-    margin: 25px;
-    background-size: contain;
-    padding-top: 25px;
-
- }
+     background-image: url(/assets/images/bg-image.png);
+     color: white;
+     text-align: center;
+     padding-bottom: 40px;
+     margin: 25px;
+     background-size: contain;
+     padding-top: 25px;
+     
+    }
+ .linkshop{
+        font-size: 15px;
+        color: #026578;
+        text-decoration: none;
+        font-weight: 800px;
+        font-weight: bold;
+    }
  .span{
     font-size: 15px;
     text-align: start;
@@ -123,22 +129,7 @@ main {
 }
 
 
-.linkshop{
-    font-size: 15px;
-    color: #026578;
-    text-decoration: none;
-    font-weight: 800px;
-    font-weight: bold;
-}
- .banner-bottom{
-     height: 500px;
- }
  
- .banner-bottom img{
-     width: 100%;
-     object-fit: cover;
-     height: inherit;
- }
 /* FOOTER */
 
 .gotop {
